@@ -85,6 +85,21 @@ prices that don't sum to 1.00, creating arbitrage.
 4. **Category deep-dives** - Politics vs Sports vs Crypto
 5. **Real-time monitoring** - Detect mispricings as they happen
 
+## Early Calibration Findings (PRELIMINARY)
+
+**Sample size: 243 price points from 81 resolved markets**
+
+| Price Range | Predicted | Actual | Diff | Signal |
+|-------------|-----------|--------|------|--------|
+| 10-20% | 16% | 0% | -16% | OVERCONFIDENT → Bet NO |
+| 20-30% | 24% | 50% | +26% | UNDERCONFIDENT → Bet YES |
+| 30-40% | 36% | 9% | -27% | OVERCONFIDENT → Bet NO |
+| 40-60% | 50% | 47% | -3% | Well calibrated |
+
+**Mean Calibration Error: 10.9%**
+
+This suggests potential alpha in extreme probability ranges, but need more data (1000+ markets) for significance.
+
 ## Questions for Marco
 
 1. Any categories of particular interest?
