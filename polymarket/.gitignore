@@ -14,6 +14,7 @@ data/*.csv
 data/*.parquet
 data/*.db
 data/*.sqlite
+data/*.log
 
 # Jupyter
 .ipynb_checkpoints/

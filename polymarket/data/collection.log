@@ -1,0 +1,2 @@
+/Users/polyclawd/clawd/polymarket/scripts/data_collector.py:141: DeprecationWarning: datetime.datetime.utcnow() is deprecated and scheduled for removal in a future version. Use timezone-aware objects to represent datetimes in UTC: datetime.datetime.now(datetime.UTC).
+  datetime.utcnow().isoformat()
