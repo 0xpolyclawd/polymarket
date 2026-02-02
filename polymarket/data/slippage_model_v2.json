@@ -1,0 +1,7 @@
+{
+  "base_spread": 0.01,
+  "impact_coef": 1.6099999e-10,
+  "reference_size": 500,
+  "formula": "slippage = spread/2 + impact_coef * sqrt(size/500)",
+  "generated": "2026-02-01T19:10:31.566973"
+}

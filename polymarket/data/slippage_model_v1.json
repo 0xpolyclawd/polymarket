@@ -1,0 +1,22 @@
+{
+  "model": "sqrt_market_impact",
+  "formula": "slippage = spread + impact_coef * sqrt(order_size / daily_vol)",
+  "parameters": {
+    "High": {
+      "est_spread": 0.5415327507080786,
+      "impact_coef": 0.0005051463290979953,
+      "med_daily_vol": 186291.69418480582
+    },
+    "Low": {
+      "est_spread": 0.7207727004363899,
+      "impact_coef": 0.006397815234722835,
+      "med_daily_vol": 2395.7782918999364
+    },
+    "Medium": {
+      "est_spread": 0.6074903056277493,
+      "impact_coef": 0.0016288310327564456,
+      "med_daily_vol": 26841.255526786626
+    }
+  },
+  "generated": "2026-02-01T19:07:54.349828"
+}
